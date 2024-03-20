@@ -18,21 +18,21 @@ public static class SeedData
                     {
                         new QuizItem(
                             id: 1,
-                            question: "Jaka jest stolica Polski?",
-                            incorrectAnswers: new List<string> {"Krosno", "Wadowice", "Wieliczka"},
-                            correctAnswer: "Warszawa"
+                            question: "Miasto w którym jesteś ?",
+                            incorrectAnswers: new List<string> {"Warszawa", "Wadowice", "Wieliczka"},
+                            correctAnswer: "Kraków"
                         ),
                         new QuizItem(
                             id: 2,
-                            question: "Więcej niż jedno zwierze to.. ",
-                            incorrectAnswers: new List<string> {"Pies", "2", "10"},
-                            correctAnswer: "Owca"
+                            question: "Na którym jesteśmy semestrze",
+                            incorrectAnswers: new List<string> {"3", "2", "1"},
+                            correctAnswer: "4"
                         ),
                         new QuizItem(
                             id: 3,
-                            question: "Gdzie siedzi wykładowca z JS?",
-                            incorrectAnswers: new List<string> {"Na szczycie", "W mieście", "W lesie"},
-                            correctAnswer: "Na brzegu"
+                            question: "Stolica Rosji?",
+                            incorrectAnswers: new List<string> {"Petersburg", "Kijów", "Kraków"},
+                            correctAnswer: "Moskwa"
                         )
                     },
                     title: "Quiz 1"
@@ -44,21 +44,21 @@ public static class SeedData
                     {
                         new QuizItem(
                             id: 1,
-                            question: "Z jakim morzem sąsiaduje Polska?",
-                            incorrectAnswers: new List<string> {"Może", "Morze Spokojne", "Morze Bałkańskie"},
-                            correctAnswer: "Morze Bałtyckie"
+                            question: "Stolica Czech?",
+                            incorrectAnswers: new List<string> {"Bratyslawa", "Warszawa", "Kijówe"},
+                            correctAnswer: "Praga"
                         ),
                         new QuizItem(
                             id: 2,
                             question: "Z kim nie graniczy Polska?",
-                            incorrectAnswers: new List<string> {"Słowacja", "Węgry", "Niemcy"},
+                            incorrectAnswers: new List<string> {"Słowacja", "Ukraina", "Niemcy"},
                             correctAnswer: "Włochy"
                         ),
                         new QuizItem(
                             id: 3,
-                            question: "Najlepsze piwko?",
-                            incorrectAnswers: new List<string> {"Tyskie", "Piwo Tesco", "Harnaś"},
-                            correctAnswer: "Żuberek"
+                            question: "Najlepsza uczelnia?",
+                            incorrectAnswers: new List<string> {"AGH", "UJ", "UEK"},
+                            correctAnswer: "WSEI"
                         )
                     },
                     title: "Quiz 2"
